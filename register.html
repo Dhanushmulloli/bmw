@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</form></title>
+</head>
+<body style="background-image: url(https://listcarbrands.com/wp-content/uploads/2015/10/BMW-Log%D0%BE.png);">
+    <form action="main.html" method="post" enctype="multipart/form-data" style="text-align: center;">
+        <h2>Register</h2>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <label for="gender">gender</label>
+        <input type="radio" name="gender" value="male"> male
+        <input type="radio" name="gender" value="female"> female <br><br>
+        <label for="number">Phone Number:</label><br>
+        <input type="tel" id="number" name="number" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="state">State:</label>
+        <select name="state" id="state" required>
+            <option value="">Select State</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="kerala">Kerala</option>
+            <option value="tamilnadu">Tamil Nadu</option>
+            <option value="andhra pradesh">Andhra Pradesh</option>
+        </select><br><br>
+        <label for="hobbies">Hobbies:</label><br>
+        <input type="checkbox" name="hobbies" value="reading"> reading
+        <input type="checkbox" name="hobbies" value="traveling"> traveling
+        <input type="checkbox" name="hobbies" value="coding"> coding <br><br>
+        <input type="submit" value="Register">
+        <a href="form.html" style="margin-left: 20px;">Back to Login</a>
+    </form>
+</body>
+</html>
